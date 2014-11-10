@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.verie.app" versionCode="1" version="0.0.1" >
+    <name>Verie</name>
+    <description>Verie – Now You Know</description>
+    <author email="support@verie.com" href="http://verie.com">
+        Verie, LLC Team
+    </author>
+    
+    <preference name="phonegap-version" value="3.6.3" />
+    <preference name="target-device" value="universal" /> <!-- iOS Only -->
+    <preference name="deployment-target" value="7.0" /> <!-- iOS Only -->
+    <preference name="orientation" value="portrait" />
+    <preference name="SplashScreen" value="splash" />
+    
+    <icon src="icon.png" />
+    <icon src="res/icons/ios/icon.png" gap:platform="ios" width="144" height="144" />
+    
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+
+    <gap:splash src="splash.png" />
+    <!-- iPhone 5 / iPod Touch (5th Generation) -->
+    <gap:splash src="res/splash/ios/Default-568h@2x.png" gap:platform="ios" width="640" height="1136" />
+    <!-- iPad -->
+    <gap:splash src="res/splash/ios/Default-Portrait.png" gap:platform="ios" width="768" height="1024" />
+    <!-- Windows Phone -->
+    <gap:splash src="res/splash/winphone/splash.jpg" gap:platform="winphone" />
+
+    <!-- Plugins -->
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.0.0" />
+    
+    <!-- This allows your application to load assets from all *.aws.amazon.com domains -->
+    <access origin="http://*.aws.amazon.com" subdomains="false" />
+    <access origin="https://*.aws.amazon.com" subdomains="false" />
+</widget>
