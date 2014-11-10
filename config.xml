@@ -10,6 +10,9 @@
     <preference name="target-device" value="universal" /> <!-- iOS Only -->
     <preference name="deployment-target" value="7.0" /> <!-- iOS Only -->
     <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />         
+    <preference name="webviewbounce" value="false" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+
     <preference name="SplashScreen" value="splash" />
     
     <icon src="icon.png" />
