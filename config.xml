@@ -32,6 +32,8 @@
 
     <!-- Plugins -->
     <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="nl.x-services.plugins.toast" version="2.0.2" />
+    <gap:plugin name="com.performanceactive.plugins.camera" />
     <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.0.0" />
     
     <!-- This allows your application to load assets from all *.aws.amazon.com domains -->

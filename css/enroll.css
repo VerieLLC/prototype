@@ -1,0 +1,10 @@
+﻿h1 { background-color:white; margin-top:0; padding:20px 0 20px 20px; opacity: 0.5; }
+h1 a:hover { text-decoration:none;  }
+div.container a { color:white; font-size:2em; text-decoration:none; display:block; }
+div.container a:first-child { margin-top:75px; }
+div.container a:hover { text-decoration:none; }
+div.container a img { float: left; padding:0 20px 25px 10px; }
+div.container a div { float:right; padding-top:70px;  height:157px; }
+div.container a label { display:block; width:580px; height:157px; padding-top:15px; }
+div.container a:first-child label { padding-top:55px; }
+div.container hr { clear:both; }

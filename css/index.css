@@ -1,0 +1,4 @@
+﻿body { background-image:url(../img/background.png); background-repeat:no-repeat; }
+.Buttons { padding:50px; }
+.Buttons a:first-child { margin-bottom:20px; }
+footer { margin:0 !important; }
