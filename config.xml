@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.verie.prototype" versionCode="1" version="0.0.1" >
-    <name>Verie Prototype</name>
+    <name>Prototype</name>
     <description>Verie – Now You Know</description>
     <author email="support@verie.com" href="http://verie.com">
         Verie, LLC Team
     </author>
     
     <preference name="phonegap-version" value="3.6.3" />
+    <preference name="EnableViewportScale" value="true"/>
     <preference name="target-device" value="universal" /> <!-- iOS Only -->
     <preference name="deployment-target" value="7.0" /> <!-- iOS Only -->
     <preference name="orientation" value="portrait" />
