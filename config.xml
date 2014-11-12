@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.verie.app" versionCode="1" version="0.0.1" >
-    <name>Verie</name>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.verie.prototype" versionCode="1" version="0.0.1" >
+    <name>Verie Prototype</name>
     <description>Verie – Now You Know</description>
     <author email="support@verie.com" href="http://verie.com">
         Verie, LLC Team
@@ -32,9 +32,7 @@
 
     <!-- Plugins -->
     <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="nl.x-services.plugins.toast" version="2.0.2" />
     <gap:plugin name="com.performanceactive.plugins.camera" />
-    <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.0.0" />
     
     <!-- This allows your application to load assets from all *.aws.amazon.com domains -->
     <access origin="http://*.aws.amazon.com" subdomains="false" />
