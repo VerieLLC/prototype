@@ -1,2 +1,0 @@
-phonegap-build-mobile-app
-=========================
